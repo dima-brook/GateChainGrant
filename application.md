@@ -117,18 +117,18 @@ Our teams has already bridged 10+ chains. For many chains our bridge is the only
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1.5 weeks | Smart Contracts | We will develop smart contracts that will:<br/>0. Research about GateChain standards and other factors & protocols that distinguish it from other chains<br/>1. Support Singe & Batch transfers - (ERC-721/ERC-1155)<br/>2. Freeze/Unfreeze Native NFTs<br/>3. Mint/Burn wrapped NFTs<br/>4. Withdraw the TX fees on the target chain in native tokens<br>5. Trust the multisig of the bridge oracle validators<br/>6. Whitelist NFT smart contracts<br/>7. Pause/Unpause for maintenance or if compromised<br/>8. Reimburse the bridge validators their expenses|
+| 15 - 27.03 | Smart Contracts | We will develop smart contracts that will:<br/>0. Research about GateChain standards and other factors & protocols that distinguish it from other chains<br/>1. Support Singe & Batch transfers - (ERC-721/ERC-1155)<br/>2. Freeze/Unfreeze Native NFTs<br/>3. Mint/Burn wrapped NFTs<br/>4. Withdraw the TX fees on the target chain in native tokens<br>5. Trust the multisig of the bridge oracle validators<br/>6. Whitelist NFT smart contracts<br/>7. Pause/Unpause for maintenance or if compromised<br/>8. Reimburse the bridge validators their expenses|
 
 ## `Milestone 2` — Testing & Documenting
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1.5 weeks | Tests & Documentation | 1. We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper unit-test coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. Deploying and testing the contracts in the testnet environment|
+| 28.03-06.04 | Tests & Documentation | 1. We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper unit-test coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. Deploying and testing the contracts in the testnet environment|
 
 ## `Milestone 3` — Integrating into the Live Bridge
 | Length | Deliverable | Specification |
 |-|-|-|
-| 2 weeks | Validators, Backend, Frontend | 1. Developing validation logic relevant for the GateChain part of the bridge<br/>2. Adding GateChain to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging GateChain in the heartbeat<br/>5. Integrating with a GateChain rpc node<br/>6. Integrating GateChain in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding GateChain to the bridge JS library<br/>9. Adding access to GateChain from the REST API<br/>10. Adding GateChain to the bridge widget|
+| 7-21.04 | Validators, Backend, Frontend | 1. Developing validation logic relevant for the GateChain part of the bridge<br/>2. Adding GateChain to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging GateChain in the heartbeat<br/>5. Integrating with a GateChain rpc node<br/>6. Integrating GateChain in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding GateChain to the bridge JS library<br/>9. Adding access to GateChain from the REST API<br/>10. Adding GateChain to the bridge widget|
 
 ## `Future Plans`
 
