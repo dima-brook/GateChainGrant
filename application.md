@@ -115,20 +115,26 @@ Our teams has already bridged 10+ chains. For many chains our bridge is the only
 
 ## `Milestone 1` — Smart Contract Development
 
-| Length | Deliverable | Specification |
+| Delivery Date | Deliverable | Specification |
 |-|-|-|
-| 15 - 27.03 | Smart Contracts | We will develop smart contracts that will:<br/>0. Research about GateChain standards and other factors & protocols that distinguish it from other chains<br/>1. Support Singe & Batch transfers - (ERC-721/ERC-1155)<br/>2. Freeze/Unfreeze Native NFTs<br/>3. Mint/Burn wrapped NFTs<br/>4. Withdraw the TX fees on the target chain in native tokens<br>5. Trust the multisig of the bridge oracle validators<br/>6. Whitelist NFT smart contracts<br/>7. Pause/Unpause for maintenance or if compromised<br/>8. Reimburse the bridge validators their expenses|
+| 27.03 | Smart Contracts | 0. We will Research about GateChain standards and other factors & protocols that distinguish it from other chains<br/>1. Transferring (ERC-721/ERC-1155) - we will develop & add transferring functionality<br/>2. Freeze/Unfreeze - we will develop and add locking/unlocking functionality for Native NFTs<br/>3. Minting/Burning - we will develop minting/burning functionality for wrapped NFTs<br/>4. TX fees - we will develop the functionality allowing to withdraw on the target chain TX fees in native tokens<br>5. Multisig - we will add the Schorr signature verification functionality<br/>6. Whitelisting - we will develop & add NFT smart contract whitelisting functionality<br/>7. Pause/Unpause - we will implement pausing/unpausing functionality<br/>8. Reimbursing of the expences - we will add the validators' expences reimbursing functionality|
 
-## `Milestone 2` — Testing & Documenting
-
-| Length | Deliverable | Specification |
+## `Milestone 2` — Integrating into the Bridge Components
+| Delivery Date | Deliverable | Specification |
 |-|-|-|
-| 28.03-06.04 | Tests & Documentation | 1. We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper unit-test coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. Deploying and testing the contracts in the testnet environment|
+| 06.04 | Validators, Backend, Frontend | 1. Validation - we will add the validation logic relevant for the GateChain part of the bridge<br/>2. NFT-Indexer - we will develop search for NFTs by a user account <br/>3. TX fee estimation - we will integrate GateChain to the TX fee estimator<br/>4. Heartbeat - we will plug GateChain to the bridge heartbeat<br/>5.Node integration - we will plug to a node, start event listening and TX submission<br/>6. UI - we will integrate GateChain in the bridge UI<br/>7. Smart Contracts - we will deploy smart contracts on the testnet<br/>8. JS library - we will add GateChain to the bridge<br/>9. REST API - we will add GateChain to the REST API<br/>10. Widget - we will add GateChain to the bridge widget|
 
-## `Milestone 3` — Integrating into the Live Bridge
-| Length | Deliverable | Specification |
+## `Milestone 3` — Testing & Documenting
+
+| Delivery Date | Deliverable | Specification |
 |-|-|-|
-| 7-21.04 | Validators, Backend, Frontend | 1. Developing validation logic relevant for the GateChain part of the bridge<br/>2. Adding GateChain to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging GateChain in the heartbeat<br/>5. Integrating with a GateChain rpc node<br/>6. Integrating GateChain in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding GateChain to the bridge JS library<br/>9. Adding access to GateChain from the REST API<br/>10. Adding GateChain to the bridge widget|
+| 13.04 | Tests & Documentation | 1. Documentation - we will provide bridge documentation allowing to interact with the bridge UI and the JS library.<br/>2. Unit-testing - The code will have proper unit-test coverage 85% to ensure functionality and robustness.<br/>3. Testing SCs - We will deploy and test the contracts in the testnet environment|
+
+## `Milestone 4` — Mainnet Integration
+
+| Delivery Date | Deliverable | Specification |
+|-|-|-|
+| 21.04 | Mainnet Integration | 1. Mainnet contract deployment - we will deploy smart contracts on the mainnet.<br/>2. JS Library integration - we will integrate GateChain in the validators. NFT-Lister, <br/>3. We will make announcements about integrating GateChain in the bridge|
 
 ## `Future Plans`
 
